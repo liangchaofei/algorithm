@@ -1,1 +1,1 @@
-# 算法学习，分别使用js,python,go实现一遍
+# 算法学习，分别使用js,es6,python,go实现一遍
