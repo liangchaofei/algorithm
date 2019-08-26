@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-08-25 20:08:53
- * @LastEditTime: 2019-08-25 20:33:05
+ * @LastEditTime: 2019-08-26 15:02:33
  * @LastEditors: Please set LastEditors
  -->
 ### 广度优先搜索
@@ -15,3 +15,29 @@
 + 栈先进后出
 + 你需要按加入顺序检查搜索列表中的人，否则找到的不是最短路径，因此搜索列表必须是队列
 + 对于检查过的人，务必不要再去检查，否则可能导致无限循环
+
++ 数组链接元素
+```python
+    arr = []
+    a = 'a'
+    arr.extend(a)
+```
+
++ 判断某个元素是否在列表中
+```python
+    aaa = 'a'
+    arr = ['a','as']
+    if aaa in arr:
+```
+
++ 定义队列（list）
+```python
+from collections import deque
+
+arr = deque()
+```
+
++ 获取列表第一个元素，类比js中的shift()
+```python
+    arr.popleft()
+```
